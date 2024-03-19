@@ -1,0 +1,111 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+    background-color: rgb(207, 196, 187);
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    margin: 20px 40px;
+    width: 100%;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    width: auto;
+    
+}
+.heading{
+    font-size: 60px;
+    color: white;
+
+}
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.profile1{
+    flex-basis: 260px;
+    /* margin-left: 350px; */
+
+}
+.profile1 .profile1-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+    cursor: pointer;
+    transition: 50ms;
+}
+  
+.profiles1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.profile2{
+    flex-basis: 260px;
+    /* margin-right: 350px; */
+}
+.profile2 .profile2-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+    cursor: pointer;
+    transition: 50ms;
+}
+.profiles2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.profile3{
+    flex-basis: 260px;
+    /* margin-right: 350px; */
+}
+.profile3 .profile3-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+    cursor: pointer;
+    transition: 50ms;
+}
+
+
+
+
+
+
+.company{
+    margin-left: 420px;
+    margin-right: 420px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: auto;
+    border-color: rgb(197, 29, 155);
+    color: ;
+    
+}
+.department{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-color: cadetblue;
+    color: slateblue;
+} 
+.dot{
+    color: rgba(49, 42, 49, 0.514);
+}
